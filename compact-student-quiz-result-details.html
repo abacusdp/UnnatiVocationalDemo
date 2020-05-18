@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Login</title>
+    <title>Quiz Result Details</title>
 
     <!-- Prevent the demo from appearing in search engines -->
     <meta name="robots" content="noindex">
@@ -92,8 +92,7 @@
 
 
 
-            <div class="navbar navbar-expand navbar-light border-bottom-2" id="default-navbar" data-primary>
-
+            <div class="navbar navbar-expand pr-0 navbar-light border-bottom-2" id="default-navbar" data-primary>
                 <!-- Navbar toggler -->
                 <button class="navbar-toggler w-auto mr-16pt d-block d-lg-none rounded-0" type="button" data-toggle="sidebar">
                     <span class="material-icons">short_text</span>
@@ -101,7 +100,6 @@
 
                 <!-- Navbar Brand -->
                 <a href="index.html" class="navbar-brand mr-16pt d-lg-none">
-                    <!-- <img class="navbar-brand-icon" src="assets/images/logo/white-100@2x.png" width="30" alt="Unnati"> -->
 
                     <span class="avatar avatar-sm navbar-brand-icon mr-0 mr-lg-8pt">
 
@@ -112,26 +110,189 @@
                     <span class="d-none d-lg-block">Unnati</span>
                 </a>
 
-                
 
 
-                <form class="search-form navbar-search d-none d-lg-flex mr-16pt" action="" style="max-width: 230px">
+
+
+                <span class="d-none d-md-flex align-items-center mr-16pt">
+
+                    <span class="avatar avatar-sm mr-12pt">
+
+                        <span class="avatar-title rounded navbar-avatar"><i class="material-icons">opacity</i></span>
+
+                    </span>
+
+                    <small class="flex d-flex flex-column">
+                        <strong class="navbar-text-100">Experience IQ</strong>
+                        <span class="navbar-text-50">2,300 points</span>
+                    </small>
+                </span>
+
+
+
+
+                <form class="search-form navbar-search d-none d-md-flex mr-16pt" action="">
                     <button class="btn" type="submit"><i class="material-icons">search</i></button>
                     <input type="text" class="form-control" placeholder="Search ...">
                 </form>
 
 
+                <div class="flex"></div>
 
 
+                <!-- Toggler -->
+                <a href="student-quiz-result-details.html" class="navbar-toggler navbar-toggler-custom align-items-center justify-content-center d-none d-lg-flex" data-toggle="tooltip" data-title="Switch to Vertical App Layout" data-placement="bottom" data-boundary="window">
+                    <span class="material-icons">swap_horiz</span>
+                </a>
 
-                <ul class="nav navbar-nav ml-auto mr-0">
-                    <li class="nav-item active">
-                        <a href="compact-login.html" class="nav-link" data-toggle="tooltip" data-title="Login" data-placement="bottom" data-boundary="window"><i class="material-icons">lock_open</i></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="compact-signup.html" class="btn btn-outline-dark">Get Started</a>
-                    </li>
-                </ul>
+
+                <div class="nav navbar-nav flex-nowrap d-flex mr-16pt">
+
+
+                    <!-- Notifications dropdown -->
+                    <div class="nav-item dropdown dropdown-notifications dropdown-xs-down-full" data-toggle="tooltip" data-title="Messages" data-placement="bottom" data-boundary="window">
+                        <button class="nav-link btn-flush dropdown-toggle" type="button" data-toggle="dropdown" data-caret="false">
+                            <i class="material-icons icon-24pt">mail_outline</i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div data-perfect-scrollbar class="position-relative">
+                                <div class="dropdown-header"><strong>Messages</strong></div>
+                                <div class="list-group list-group-flush mb-0">
+
+                                    <a href="javascript:void(0);" class="list-group-item list-group-item-action unread">
+                                        <span class="d-flex align-items-center mb-1">
+                                            <small class="text-black-50">5 minutes ago</small>
+
+                                            <span class="ml-auto unread-indicator bg-accent"></span>
+
+                                        </span>
+                                        <span class="d-flex">
+                                            <span class="avatar avatar-xs mr-2">
+                                                <img src="assets/images/people/110/woman-5.jpg" alt="people" class="avatar-img rounded-circle">
+                                            </span>
+                                            <span class="flex d-flex flex-column">
+                                                <strong class="text-black-100">Michelle</strong>
+                                                <span class="text-black-70">Clients loved the new design.</span>
+                                            </span>
+                                        </span>
+                                    </a>
+
+                                    <a href="javascript:void(0);" class="list-group-item list-group-item-action">
+                                        <span class="d-flex align-items-center mb-1">
+                                            <small class="text-black-50">5 minutes ago</small>
+
+                                        </span>
+                                        <span class="d-flex">
+                                            <span class="avatar avatar-xs mr-2">
+                                                <img src="assets/images/people/110/woman-5.jpg" alt="people" class="avatar-img rounded-circle">
+                                            </span>
+                                            <span class="flex d-flex flex-column">
+                                                <strong class="text-black-100">Michelle</strong>
+                                                <span class="text-black-70">🔥 Superb job..</span>
+                                            </span>
+                                        </span>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // END Notifications dropdown -->
+
+
+                    <!-- Notifications dropdown -->
+                    <div class="nav-item ml-16pt dropdown dropdown-notifications dropdown-xs-down-full" data-toggle="tooltip" data-title="Notifications" data-placement="bottom" data-boundary="window">
+                        <button class="nav-link btn-flush dropdown-toggle" type="button" data-toggle="dropdown" data-caret="false">
+                            <i class="material-icons">notifications_none</i>
+                            <span class="badge badge-notifications badge-accent">2</span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div data-perfect-scrollbar class="position-relative">
+                                <div class="dropdown-header"><strong>System notifications</strong></div>
+                                <div class="list-group list-group-flush mb-0">
+
+                                    <a href="javascript:void(0);" class="list-group-item list-group-item-action unread">
+                                        <span class="d-flex align-items-center mb-1">
+                                            <small class="text-black-50">3 minutes ago</small>
+
+                                            <span class="ml-auto unread-indicator bg-accent"></span>
+
+                                        </span>
+                                        <span class="d-flex">
+                                            <span class="avatar avatar-xs mr-2">
+                                                <span class="avatar-title rounded-circle bg-light">
+                                                    <i class="material-icons font-size-16pt text-accent">account_circle</i>
+                                                </span>
+                                            </span>
+                                            <span class="flex d-flex flex-column">
+
+                                                <span class="text-black-70">Your profile information has not been synced correctly.</span>
+                                            </span>
+                                        </span>
+                                    </a>
+
+                                    <a href="javascript:void(0);" class="list-group-item list-group-item-action">
+                                        <span class="d-flex align-items-center mb-1">
+                                            <small class="text-black-50">5 hours ago</small>
+
+                                        </span>
+                                        <span class="d-flex">
+                                            <span class="avatar avatar-xs mr-2">
+                                                <span class="avatar-title rounded-circle bg-light">
+                                                    <i class="material-icons font-size-16pt text-primary">group_add</i>
+                                                </span>
+                                            </span>
+                                            <span class="flex d-flex flex-column">
+                                                <strong class="text-black-100">Adrian. D</strong>
+                                                <span class="text-black-70">Wants to join your private group.</span>
+                                            </span>
+                                        </span>
+                                    </a>
+
+                                    <a href="javascript:void(0);" class="list-group-item list-group-item-action">
+                                        <span class="d-flex align-items-center mb-1">
+                                            <small class="text-black-50">1 day ago</small>
+
+                                        </span>
+                                        <span class="d-flex">
+                                            <span class="avatar avatar-xs mr-2">
+                                                <span class="avatar-title rounded-circle bg-light">
+                                                    <i class="material-icons font-size-16pt text-warning">storage</i>
+                                                </span>
+                                            </span>
+                                            <span class="flex d-flex flex-column">
+
+                                                <span class="text-black-70">Your deploy was successful.</span>
+                                            </span>
+                                        </span>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // END Notifications dropdown -->
+
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown" data-caret="false">
+
+                            <span class="avatar avatar-sm mr-8pt2">
+
+                                <span class="avatar-title rounded-circle bg-primary"><i class="material-icons">account_box</i></span>
+
+                            </span>
+
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <div class="dropdown-header"><strong>Account</strong></div>
+                            <a class="dropdown-item" href="compact-edit-account.html">Edit Account</a>
+                            <a class="dropdown-item" href="compact-billing.html">Billing</a>
+                            <a class="dropdown-item" href="compact-billing-history.html">Payments</a>
+                            <a class="dropdown-item" href="compact-login.html">Logout</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
@@ -154,27 +315,83 @@
 
 
 
-            <div class="pt-32pt pt-sm-64pt pb-32pt">
+            <div class="navbar navbar-list navbar-light border-bottom navbar-expand-sm" style="white-space: nowrap;">
                 <div class="container page__container">
-                    <form action="" class="col-md-5 p-0 mx-auto">
-                        <div class="form-group">
-                            <label class="form-label" for="email">Mobile Number:</label>
-                            <input id="mobile" type="tel" class="form-control" placeholder="Mobile Number">
-                            <p class="text-right"><a href="" class="small">Send OTP</a></p>
+                    <nav class="nav navbar-nav">
+                        <div class="nav-item navbar-list__item">
+                            <a href="compact-student-take-course.html" class="nav-link h-auto"><i class="material-icons icon--left">keyboard_backspace</i> Back to Course</a>
                         </div>
-                        <div class="form-group">
-                            <label class="form-label" for="password">OTP:</label>
-                            <input id="otp" type="text" class="form-control" placeholder="OTP">
-                            
+                        <div class="nav-item navbar-list__item">
+                            <div class="d-flex align-items-center flex-nowrap">
+                                <div class="mr-16pt">
+                                    <a href="compact-student-take-course.html"><img src="assets/images/paths/angular_64x64.png" width="40" alt="Angular" class="rounded"></a>
+                                </div>
+                                <div class="flex">
+                                    <a href="compact-student-take-course.html" class="card-title text-body mb-0">Angular Fundamentals</a>
+                                    <p class="lh-1 d-flex align-items-center mb-0">
+                                        <span class="text-50 small font-weight-bold mr-8pt">Elijah Murray</span>
+                                        <span class="text-50 small">Software Engineer and Developer</span>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="text-center">
-                            <button class="btn btn-primary">Login</button>
-                        </div>
-                    </form>
+                    </nav>
                 </div>
             </div>
-            
-            
+            <div class="mdk-box bg-primary mdk-box--bg-gradient-primary2 js-mdk-box mb-0" data-effects="blend-background">
+                <div class="mdk-box__content">
+                    <div class="py-64pt text-center text-sm-left">
+                        <div class="container d-flex flex-column justify-content-center align-items-center">
+                            <p class="lead text-white-50 measure-lead-max mb-0">Submited on 02 Jan 2019</p>
+                            <h1 class="text-white mb-24pt">Your Score: 350</h1>
+                            <a href="compact-student-take-quiz.html" class="btn btn-outline-white">Restart quiz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar navbar-expand-sm navbar-light navbar-submenu navbar-list p-0 m-0 align-items-center">
+                <div class="container page__container">
+                    <ul class="nav navbar-nav flex align-items-sm-center">
+                        <li class="nav-item navbar-list__item">350/450 Score</li>
+                        <li class="nav-item navbar-list__item">
+                            <i class="material-icons text-muted icon--left">schedule</i>
+                            12 minutes
+                        </li>
+                        <li class="nav-item navbar-list__item">
+                            <i class="material-icons text-muted icon--left">assessment</i>
+                            Intermediate
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container page__container">
+                <div class="border-left-2 page-section pl-32pt">
+
+                    <div class="d-flex align-items-center page-num-container mb-16pt">
+                        <div class="page-num">2</div>
+                        <h4>Question 2 of 5</h4>
+                    </div>
+
+                    <p class="text-70 measure-lead mb-32pt mb-lg-48pt">An angular 2 project written in typescript is* transpiled to javascript duri*ng the build process. Which of the following additional features are provided to the developer while programming on typescript over javascript?</p>
+
+                    <ul class="list-quiz">
+                        <li class="list-quiz-item">
+                            <span class="list-quiz-badge">A</span>
+                            <span class="list-quiz-text">Ability to use newer syntax and offers reliability</span>
+                        </li>
+                        <li class="list-quiz-item active">
+                            <span class="list-quiz-badge bg-primary text-white"><i class="material-icons">check</i></span>
+                            <span class="list-quiz-text">Compatibility</span>
+                        </li>
+                        <li class="list-quiz-item">
+                            <span class="list-quiz-badge">C</span>
+                            <span class="list-quiz-text">Usage of missing features</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
 
 
 
@@ -216,7 +433,7 @@
 
                     <div class="flex d-flex flex-column justify-content-start" data-perfect-scrollbar>
                         <ul class="nav flex-shrink-0 flex-nowrap flex-column sidebar-menu mb-0 sm-item-bordered js-sidebar-mini-tabs" role="tablist">
-                            <li class="sidebar-menu-item" data-title="Student" data-placement="right" data-boundary="window">
+                            <li class="sidebar-menu-item active" data-title="Student" data-placement="right" data-boundary="window">
                                 <a class="sidebar-menu-button" href="#sm_student" data-toggle="tab" role="tab" aria-controls="sm_student" aria-selected="true">
                                     <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">school</i>
                                     <span class="sidebar-menu-text">Student</span>
@@ -234,7 +451,7 @@
                                     <span class="sidebar-menu-text">Apps</span>
                                 </a>
                             </li>
-                            <li class="sidebar-menu-item  active " data-title="Account" data-placement="right" data-container="body" data-boundary="window">
+                            <li class="sidebar-menu-item " data-title="Account" data-placement="right" data-container="body" data-boundary="window">
                                 <a class="sidebar-menu-button" href="#sm_account" data-toggle="tab" role="tab" aria-controls="sm_account">
                                     <i class="sidebar-menu-icon sidebar-menu-icon--left material-icons">account_box</i>
                                     <span class="sidebar-menu-text">Account</span>
@@ -261,6 +478,14 @@
                         </ul>
                     </div>
 
+
+                    <ul class="nav flex-column sidebar-menu align-items-center mb-12pt js-sidebar-mini-tabs" role="tablist">
+                        <li class="sidebar-account" style="width: 40px;">
+                            <a href="#sm_account_1" class="p-4pt d-flex align-items-center justify-content-center" data-toggle="tab" role="tab" aria-controls="sm_account_1" aria-selected="true">
+                                <img width="32" height="32" class="rounded-circle" src="assets/images/people/50/guy-3.jpg" alt="account" />
+                            </a>
+                        </li>
+                    </ul>
 
                 </div>
 
@@ -522,7 +747,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="tab-pane " id="sm_student">
+                        <div class="tab-pane  fade active show " id="sm_student">
                             <div class="sidebar-heading">Student</div>
                             <ul class="sidebar-menu">
 
@@ -606,7 +831,7 @@
                                         <span class="sidebar-menu-text">My Quizzes</span>
                                     </a>
                                 </li>
-                                <li class="sidebar-menu-item">
+                                <li class="sidebar-menu-item active">
                                     <a class="sidebar-menu-button" href="compact-student-quiz-result-details.html">
                                         <span class="material-icons sidebar-menu-icon sidebar-menu-icon--left">live_help</span>
                                         <span class="sidebar-menu-text">Quiz Result</span>
@@ -677,7 +902,7 @@
 
                             </ul>
                         </div>
-                        <div class="tab-pane  fade active show " id="sm_account">
+                        <div class="tab-pane " id="sm_account">
                             <div class="sidebar-heading">Account</div>
                             <ul class="sidebar-menu">
                                 <li class="sidebar-menu-item">
@@ -685,7 +910,7 @@
                                         <span class="sidebar-menu-text">Pricing</span>
                                     </a>
                                 </li>
-                                <li class="sidebar-menu-item active">
+                                <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="compact-login.html">
                                         <span class="sidebar-menu-text">Login</span>
                                     </a>
@@ -964,37 +1189,37 @@
                             <div class="sidebar-heading">Layouts</div>
                             <ul class="sidebar-menu">
                                 <li class="sidebar-menu-item active">
-                                    <a class="sidebar-menu-button" href="compact-login.html">
+                                    <a class="sidebar-menu-button" href="compact-student-quiz-result-details.html">
                                         <span class="sidebar-menu-text">Compact</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="mini-login.html">
+                                    <a class="sidebar-menu-button" href="mini-student-quiz-result-details.html">
                                         <span class="sidebar-menu-text">Mini</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="mini-secondary-login.html">
+                                    <a class="sidebar-menu-button" href="mini-secondary-student-quiz-result-details.html">
                                         <span class="sidebar-menu-text">Mini + Secondary</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="login.html">
+                                    <a class="sidebar-menu-button" href="student-quiz-result-details.html">
                                         <span class="sidebar-menu-text">App</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="boxed-login.html">
+                                    <a class="sidebar-menu-button" href="boxed-student-quiz-result-details.html">
                                         <span class="sidebar-menu-text">Boxed</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="sticky-login.html">
+                                    <a class="sidebar-menu-button" href="sticky-student-quiz-result-details.html">
                                         <span class="sidebar-menu-text">Sticky</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="fixed-login.html">
+                                    <a class="sidebar-menu-button" href="fixed-student-quiz-result-details.html">
                                         <span class="sidebar-menu-text">Fixed</span>
                                     </a>
                                 </li>

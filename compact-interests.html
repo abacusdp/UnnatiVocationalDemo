@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Login</title>
+    <title>Interests</title>
 
     <!-- Prevent the demo from appearing in search engines -->
     <meta name="robots" content="noindex">
@@ -125,10 +125,10 @@
 
 
                 <ul class="nav navbar-nav ml-auto mr-0">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a href="compact-login.html" class="nav-link" data-toggle="tooltip" data-title="Login" data-placement="bottom" data-boundary="window"><i class="material-icons">lock_open</i></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a href="compact-signup.html" class="btn btn-outline-dark">Get Started</a>
                     </li>
                 </ul>
@@ -154,27 +154,86 @@
 
 
 
-            <div class="pt-32pt pt-sm-64pt pb-32pt">
+            <div class="py-32pt navbar-submenu">
                 <div class="container page__container">
-                    <form action="" class="col-md-5 p-0 mx-auto">
-                        <div class="form-group">
-                            <label class="form-label" for="email">Mobile Number:</label>
-                            <input id="mobile" type="tel" class="form-control" placeholder="Mobile Number">
-                            <p class="text-right"><a href="" class="small">Send OTP</a></p>
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label" for="password">OTP:</label>
-                            <input id="otp" type="text" class="form-control" placeholder="OTP">
+                    <div class="progression-bar progression-bar--active-accent">
+                        
+                        <a href="compact-signup.html" class="progression-bar__item progression-bar__item--complete">
+                            <span class="progression-bar__item-content">
+                                <i class="material-icons progression-bar__item-icon">done</i>
+                                <span class="progression-bar__item-text h5 mb-0 text-uppercase">Account details</span>
+                            </span>
+                        </a>
+                        <a href="compact-interests.html" class="progression-bar__item progression-bar__item--complete progression-bar__item--active">
+                            <span class="progression-bar__item-content">
+                                <i class="material-icons progression-bar__item-icon"></i>
+                                <span class="progression-bar__item-text h5 mb-0 text-uppercase">Interests</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-section">
+                <div class="container page__container">
+                
+                    <form action="" class="col-md-8 p-0 mx-auto">
+                    <div class="page-separator">
+                        <div class="page-separator__text">Pick your Interest(s)</div>
+                    </div>
+
+                        <div class="list-group list-group-form mb-0">
                             
+                            <div class="list-group-item">
+                                <div class="form-group row align-items-center mb-0">
+                                    <div class="custom-control custom-checkbox">
+                            <input id="customCheck00" type="checkbox" class="custom-control-input">
+                            <label for="customCheck00" class="custom-control-label">Information Technology</label>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item">
+                                <div class="form-group row align-items-center mb-0">
+                                    <div class="custom-control custom-checkbox">
+                            <input id="customCheck01" type="checkbox" class="custom-control-input">
+                            <label for="customCheck01" class="custom-control-label">Hospitality</label>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item">
+                                <div class="form-group row align-items-center mb-0">
+                                    <div class="custom-control custom-checkbox">
+                            <input id="customCheck02" type="checkbox" class="custom-control-input">
+                            <label for="customCheck02" class="custom-control-label">Security</label>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item">
+                                <div class="form-group row align-items-center mb-0">
+                                    <div class="custom-control custom-checkbox">
+                            <input id="customCheck03" type="checkbox" class="custom-control-input">
+                            <label for="customCheck03" class="custom-control-label">Healthcare</label>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item">
+                                <div class="form-group row align-items-center mb-0">
+                                    <div class="custom-control custom-checkbox">
+                            <input id="customCheck04" type="checkbox" class="custom-control-input">
+                            <label for="customCheck04" class="custom-control-label">Customer Service</label>
+                                 </div>
+                                </div>
+                            </div>
+                            
+                            <div class="list-group-item text-center">
+                                <button type="submit" class="btn btn-primary">Join Now</button>
+                            </div>
                         </div>
-                        <div class="text-center">
-                            <button class="btn btn-primary">Login</button>
-                        </div>
+
                     </form>
                 </div>
             </div>
-            
-            
+
 
 
 
@@ -685,7 +744,7 @@
                                         <span class="sidebar-menu-text">Pricing</span>
                                     </a>
                                 </li>
-                                <li class="sidebar-menu-item active">
+                                <li class="sidebar-menu-item">
                                     <a class="sidebar-menu-button" href="compact-login.html">
                                         <span class="sidebar-menu-text">Login</span>
                                     </a>
@@ -695,7 +754,7 @@
                                         <span class="sidebar-menu-text">Signup</span>
                                     </a>
                                 </li>
-                                <li class="sidebar-menu-item">
+                                <li class="sidebar-menu-item active">
                                     <a class="sidebar-menu-button" href="compact-signup-payment.html">
                                         <span class="sidebar-menu-text">Payment</span>
                                     </a>
@@ -964,37 +1023,37 @@
                             <div class="sidebar-heading">Layouts</div>
                             <ul class="sidebar-menu">
                                 <li class="sidebar-menu-item active">
-                                    <a class="sidebar-menu-button" href="compact-login.html">
+                                    <a class="sidebar-menu-button" href="compact-signup-payment.html">
                                         <span class="sidebar-menu-text">Compact</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="mini-login.html">
+                                    <a class="sidebar-menu-button" href="mini-signup-payment.html">
                                         <span class="sidebar-menu-text">Mini</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="mini-secondary-login.html">
+                                    <a class="sidebar-menu-button" href="mini-secondary-signup-payment.html">
                                         <span class="sidebar-menu-text">Mini + Secondary</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="login.html">
+                                    <a class="sidebar-menu-button" href="signup-payment.html">
                                         <span class="sidebar-menu-text">App</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="boxed-login.html">
+                                    <a class="sidebar-menu-button" href="boxed-signup-payment.html">
                                         <span class="sidebar-menu-text">Boxed</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="sticky-login.html">
+                                    <a class="sidebar-menu-button" href="sticky-signup-payment.html">
                                         <span class="sidebar-menu-text">Sticky</span>
                                     </a>
                                 </li>
                                 <li class="sidebar-menu-item">
-                                    <a class="sidebar-menu-button" href="fixed-login.html">
+                                    <a class="sidebar-menu-button" href="fixed-signup-payment.html">
                                         <span class="sidebar-menu-text">Fixed</span>
                                     </a>
                                 </li>
